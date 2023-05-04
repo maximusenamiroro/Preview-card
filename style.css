@@ -1,0 +1,69 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.container{
+    display: flex;
+    margin: auto;
+    margin-top: 5em;
+    width: 50%;
+    height: 70vh;
+}
+
+.image img{
+    height: 69.4vh;
+}
+
+.line{
+    text-decoration: line-through;
+    color:  hsl(228, 12%, 48%);
+}
+
+.price{
+    color: hsl(158, 36%, 37%);
+    font-size: 2em;
+}
+
+.logo{
+    color:  hsl(228, 12%, 48%);
+   letter-spacing: 0.2em;
+   font-size: 1.3em;
+   padding-bottom: 1em;
+}
+
+.text{
+   color: hsl(228, 12%, 48%);
+   padding-bottom: 1em;
+}
+
+.description{
+    padding: 10%;
+    background-color: white;
+}
+
+.prices{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    padding-bottom: 1.8em;
+}
+
+button{
+    font-size: 1.3em;
+    padding: 3.9em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 10px;
+}
+
+h1{
+    padding-bottom: 1em;
+}
